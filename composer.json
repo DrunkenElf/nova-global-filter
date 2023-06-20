@@ -1,5 +1,5 @@
 {
-    "name": "DrunkenElf/nova-global-filter",
+    "name": "drunken-elf/nova-global-filter",
     "description": "This package allows you to broadcast any of your existing Laravel Nova filters to metrics or custom cards.",
     "keywords": [
         "laravel",
