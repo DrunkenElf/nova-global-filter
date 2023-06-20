@@ -1,5 +1,5 @@
 {
-    "name": "nemrutco/nova-global-filter",
+    "name": "DrunkenElf/nova-global-filter",
     "description": "This package allows you to broadcast any of your existing Laravel Nova filters to metrics or custom cards.",
     "keywords": [
         "laravel",
@@ -22,13 +22,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Nemrutco\\NovaGlobalFilter\\": "src/"
+            "DrunkenElf\\NovaGlobalFilter\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Nemrutco\\NovaGlobalFilter\\CardServiceProvider"
+                "DrunkenElf\\NovaGlobalFilter\\CardServiceProvider"
             ]
         }
     },

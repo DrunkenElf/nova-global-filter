@@ -1,6 +1,6 @@
 <?php
 
-namespace Nemrutco\NovaGlobalFilter;
+namespace DrunkenElf\NovaGlobalFilter;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

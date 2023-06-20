@@ -9,7 +9,7 @@ This package allows you to emit any of your existing Laravel Nova filters to met
 You can install the package in to a `Laravel` app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require nemrutco/nova-global-filter
+composer require DrunkenElf/nova-global-filter
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ In this example, we are registering few `Metric Cards` and the `Global Filter` w
 
 ```php
 ...
-use Nemrutco\NovaGlobalFilter\NovaGlobalFilter;
+use DrunkenElf\NovaGlobalFilter\NovaGlobalFilter;
 use App\Nova\Filters\Date;
 
 class Store extends Resource
@@ -48,7 +48,7 @@ And now `metric cards` or any `other cards` optimized to listen `GlobalFilter` c
 `globalFiltered($model, $filters = [])` method expect `$model` and `$filters` parameters:
 
 ```php
-use Nemrutco\NovaGlobalFilter\GlobalFilterable;
+use DrunkenElf\NovaGlobalFilter\GlobalFilterable;
 use App\Nova\Filters\Date;
 ...
 
